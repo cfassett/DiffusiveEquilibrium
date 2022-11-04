@@ -8,7 +8,7 @@ import copy
 def man(option, opt, value, parser):
     print >>sys.stderr, parser.usage
     print >>sys.stderr, '''\
-This program generates craters over the entire surface of the Moon for ejecta hazard assessment.
+This program generates a plot of the CDF of d/D for different size ranges in equilibrium. 
 '''
     sys.exit()
 
