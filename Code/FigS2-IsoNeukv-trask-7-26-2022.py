@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def man(option, opt, value, parser):
     print >>sys.stderr, parser.usage
     print >>sys.stderr, '''\
-This program generates craters over the entire surface of the Moon for ejecta hazard assessment.
+This program shows the intersection of the Neukum isochrons (differential form) with the Trask equilibrium function (differential).
 '''
     sys.exit()
 
