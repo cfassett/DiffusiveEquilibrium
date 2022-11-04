@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 def man(option, opt, value, parser):
     print >>sys.stderr, parser.usage
     print >>sys.stderr, '''\
-This program generates craters over the entire surface of the Moon for ejecta hazard assessment.
-'''
+Table version of lifetimes from Fig 1'''
     sys.exit()
 
 class Usage(Exception):
